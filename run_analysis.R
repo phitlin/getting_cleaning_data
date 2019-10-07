@@ -70,8 +70,7 @@ aggtable <- aggtable[order(aggtable$subject, aggtable$Activity),]
 
 ##print to file
 setwd("~/coursera_class2/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
-write.csv(aggtable, file = "tidy_data_output.csv")
-
+write.table(aggtable, file = "tidy_data_output.txt")
 
 
 
