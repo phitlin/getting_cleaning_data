@@ -40,3 +40,4 @@ TRANSFORMATIONS
 
 For FEATURES data, I only imported rows with mean or std to simplify data.
 Loaded train data, then test data, and merged the two on SUBJECT and ACTIVITY
+Final data are sorted by subject first then activity
